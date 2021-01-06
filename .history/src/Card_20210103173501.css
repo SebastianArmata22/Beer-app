@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+height: 90vh;
+border: 1px solid #f39c12;
+}

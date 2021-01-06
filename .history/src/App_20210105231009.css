@@ -1,0 +1,18 @@
+.app-container{
+  max-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.svg-button{
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .svg-button{
+    transform: scale(0.3);
+  }
+
+}

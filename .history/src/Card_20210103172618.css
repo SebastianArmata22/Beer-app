@@ -1,0 +1,9 @@
+*{
+    margin: 200;
+    padding: 0;
+}
+
+.card{
+width: 50%;
+border: 1px solid #f39c12;
+}

@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+
+border: 1px solid #f39c12;
+}
+
+.photo-beer{
+    max-height: 60vh;
+}
