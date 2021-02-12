@@ -47,7 +47,7 @@ class App extends React.Component {
     return(
         <div className="app-container">
         <img className="svg-button" onClick={this.previousBeer} src={leftArrow} alt="previous" height='100px'/>
-        {this.state.isLoaded ? <Card item={this.state.data} isNext={this.state.isNext} /> : <div className=" load-div"><h3>is Loading...</h3></div>}
+        {this.state.isLoaded ? <Card item={this.state.data} isNext={this.state.isNext} /> : <div className=" load-div">is Loading...</div>}
         <img className="svg-button" onClick={this.nextBeer} src={rigtArrow} alt="next" height='100px' />
         </div>
 

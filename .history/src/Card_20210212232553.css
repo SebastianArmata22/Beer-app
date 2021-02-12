@@ -6,8 +6,8 @@
 body{
     background-image: url('./background.png');
     background-repeat: no-repeat;
+    background-size: 100% 100%;
     background-position: center;
-    background-size: cover;
     overflow: hidden;
 }
 .card {
@@ -19,6 +19,7 @@ body{
     min-height: 90vh;
     padding: 20px;
     background-color: rgba(255, 255, 255,0.8);
+    overflow: hidden;
 }
 .card h2{
     color: #f39c12;
@@ -36,10 +37,8 @@ body{
 
 .load-div{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #ffffff;
-    width: 90%;
+     justify-content: center;
+     align-items: center;
 }
 
 .text-card{
