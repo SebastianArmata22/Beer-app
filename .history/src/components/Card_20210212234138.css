@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-image: url('../images/background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.card {
+    border: 2px solid #f39c12;
+    border-radius: 20px;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+    padding: 20px;
+    background-color: rgba(255, 255, 255,0.8);
+}
+.card h2{
+    color: #f39c12;
+}
+
+.photo-beer{
+    height: 50vh;
+}
+.photo-card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.load-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    width: 730px;
+}
+
+.text-card{
+    position: relative;
+    text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+    .card{
+        min-width: 200px;
+    }
+}
