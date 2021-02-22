@@ -23,7 +23,7 @@ function Card(props){
                 <h2>{props.item[0].name}</h2>
             </div>
             <p className="text-card"><b>Tagline: </b> {props.item[0].tagline}</p>
-            <p className="text-card"><b>Description: </b>{props.item[0].description}</p>
+            <p className="text-card"><b>Deskription: </b>{props.item[0].description}</p>
             <p className="text-card"><b>First brewed: </b>{props.item[0].first_brewed}</p>
             <p className="text-card"><b>ABV: </b>{props.item[0].abv}%</p>
         </div>
