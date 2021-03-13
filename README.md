@@ -10,7 +10,7 @@ Application for viewing craft beers based on the React library and open API.
 
 ## How to open a project
 ```
-$ cd ../Portfolio-main
+$ cd ../beer-app
 $ npm install
 $ npm start
 ```
